@@ -16,8 +16,8 @@ Follow us on Telegram: [OneXray](https://t.me/OneXrayApp)
 | Windows          | Windows 10, Windows 11                       | x86_64               | zip                         | [OneXray-windows-amd64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.zip)         |
 | Android          | Android 9.0 and above                        | arm64, x86_64        | aab                         | Google Play Store                                                                                                          |
 | Android          | Android 9.0 and above                        | arm64, x86_64        | apk                         | [OneXray-android-universal.apk](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-android-universal.apk) |
-| iOS              | iOS 15.0 and above                           | arm64                | ipa                         | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
 | iOS              | iOS 15.0 and above                           | arm64                | ipa                         | [App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                            |
+| iOS              | iOS 15.0 and above                           | arm64                | ipa                         | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
 | macOS            | macOS 12.0 and above                         | Apple silicon, Intel | pkg                         | [Mac App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                        |
 | Linux            | Ubuntu 20.04 and above, Debian 11  and above | x86_64               | deb                         | [OneXray-linux-x86_64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.deb)           |
 | Linux            | Ubuntu 20.04 and above, Debian 11  and above | x86_64               | zip                         | [OneXray-linux-x86_64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.zip)           |
@@ -40,3 +40,15 @@ Please confirm the directory before executing the command.
 sudo setcap cap_net_admin+epi onexray/bin/tun
 sudo setcap cap_net_admin+epi onexray/bin/route
 ```
+
+## Kernel Upgrade
+
+On Linux and Windows platforms, you can upgrade or replace Xray-core yourself. You can compile it using the build script according to the instructions in [libXray](https://github.com/XTLS/libXray).
+
+### Linux
+
+Replace `OneXray/libXray.so` with the compiled product of libXray `linux_so/libXray.so`.
+
+### Windows
+
+Replace `OneXray/libXray.dll` with the compiled product of libXray `windows_dll/libXray.dll`.

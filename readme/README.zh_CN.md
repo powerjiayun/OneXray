@@ -14,8 +14,8 @@
 | Windows  | Windows 10, Windows 11                | x86_64               | zip        | [OneXray-windows-amd64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.zip)         |
 | Android  | Android 9.0 及以上                    | arm64, x86_64        | aab        | Google Play Store                                                                                                          |
 | Android  | Android 9.0 及以上                    | arm64, x86_64        | apk        | [OneXray-android-universal.apk](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-android-universal.apk) |
-| iOS      | iOS 15.0 及以上                       | arm64                | ipa        | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
 | iOS      | iOS 15.0 及以上                       | arm64                | ipa        | [App Store](https://apps.apple.com/us/app/croxray/id6745059673)                                                            |
+| iOS      | iOS 15.0 及以上                       | arm64                | ipa        | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
 | macOS    | macOS 12.0 及以上                     | Apple silicon, Intel | pkg        | [Mac App Store](https://apps.apple.com/us/app/croxray/id6745059673)                                                        |
 | Linux    | Ubuntu 20.04 及以上, Debian 11 及以上 | x86_64               | deb        | [OneXray-linux-x86_64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.deb)           |
 | Linux    | Ubuntu 20.04 及以上, Debian 11 及以上 | x86_64               | zip        | [OneXray-linux-x86_64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.zip)           |
@@ -39,3 +39,16 @@
 sudo setcap cap_net_admin+epi onexray/bin/tun
 sudo setcap cap_net_admin+epi onexray/bin/route
 ```
+
+## 内核升级
+
+在 Linux 和 Windows 平台，您可自行升级或替换 Xray-core 。您可按照 [libXray](https://github.com/XTLS/libXray) 中
+的指引，使用 build 脚本进行编译。
+
+### Linux
+
+将 `OneXray/libXray.so` 替换为 libXray 的编译产物 `linux_so/libXray.so` 。
+
+### Windows
+
+将 `OneXray/libXray.dll` 替换为 libXray 的编译产物 `windows_dll/libXray.dll` 。
