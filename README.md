@@ -16,9 +16,27 @@ Follow us on Telegram: [OneXray](https://t.me/OneXrayApp)
 | Windows          | Windows 10, Windows 11                       | x86_64               | zip                         | [OneXray-windows-amd64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.zip)         |
 | Android          | Android 9.0 and above                        | arm64, x86_64        | aab                         | Google Play Store                                                                                                          |
 | Android          | Android 9.0 and above                        | arm64, x86_64        | apk                         | [OneXray-android-universal.apk](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-android-universal.apk) |
-| iOS              | iOS 15.5 and above                           | arm64                | ipa                         | [App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                            |
+| iOS              | iOS 15.0 and above                           | arm64                | ipa                         | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
+| iOS              | iOS 15.0 and above                           | arm64                | ipa                         | [App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                            |
 | macOS            | macOS 12.0 and above                         | Apple silicon, Intel | pkg                         | [Mac App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                        |
 | Linux            | Ubuntu 20.04 and above, Debian 11  and above | x86_64               | deb                         | [OneXray-linux-x86_64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.deb)           |
 | Linux            | Ubuntu 20.04 and above, Debian 11  and above | x86_64               | zip                         | [OneXray-linux-x86_64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.zip)           |
 | Linux            | Ubuntu 20.04 and above, Debian 11  and above | arm64                | deb                         | [OneXray-linux-aarch64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-aarch64.deb)         |
 | Linux            | Ubuntu 20.04 and above, Debian 11  and above | arm64                | zip                         | [OneXray-linux-aarch64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-aarch64.zip)         |
+
+## Notes
+
+### iOS
+
+If you don't have an Apple ID, or your Apple ID cannot download OneXray, you can download **OneXray-ios.ipa** and then use [AltStore](https://altstore.io/) or other third-party tools to install it.
+
+### Linux
+
+If you use the zip package, you need to make the following settings to use OneXray normally.
+
+Please confirm the directory before executing the command.
+
+```shell
+sudo setcap cap_net_admin+epi onexray/bin/tun
+sudo setcap cap_net_admin+epi onexray/bin/route
+```
