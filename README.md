@@ -48,15 +48,15 @@ sudo apt install ./OneXray-linux-x86_64.deb
 sudo apt remove onexray
 ```
 
-## Kernel Upgrade
+### Kernel Upgrade
 
 On Linux and Windows platforms, you can upgrade or replace Xray-core yourself. You can compile it using the build script according to the instructions in [libXray](https://github.com/XTLS/libXray).
 
-### Linux
+#### Linux
 
 Replace `OneXray/lib/libXray.so` with the compiled product of libXray `linux_so/libXray.so`.
 
-### Windows
+#### Windows
 
 Replace `OneXray/libXray.dll` with the compiled product of libXray `windows_dll/libXray.dll`.
 
@@ -65,3 +65,15 @@ Replace `OneXray/libXray.dll` with the compiled product of libXray `windows_dll/
 ### Why is there no self-installable pkg or dmg package?
 
 When distributing packages outside the Mac App Store, you need to use the **Developer ID Installer** and **Developer ID Application** certificates. Unfortunately, these two certificates do not support signing Network Extension plugins.
+
+## Contribution
+
+If this project is helpful to you, you can consider contributing to this project in the following ways.
+
+1. Give this project a star.
+
+2. Translate the app's UI text [l10n](https://github.com/OneXray/l10n) .
+
+3. Translate the app's documentation [onexray.com](https://github.com/OneXray/onexray.com) .
+
+4. Share your routing settings [Routing](https://github.com/OneXray/Routing) .

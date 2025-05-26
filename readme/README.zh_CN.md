@@ -47,15 +47,15 @@ sudo apt install ./OneXray-linux-x86_64.deb
 sudo apt remove onexray
 ```
 
-## 内核升级
+### 内核升级
 
 在 Linux 和 Windows 平台，您可自行升级或替换 Xray-core 。您可按照 [libXray](https://github.com/XTLS/libXray) 中的指引，使用 build 脚本进行编译。
 
-### Linux
+#### Linux
 
 将 `OneXray/lib/libXray.so` 替换为 libXray 的编译产物 `linux_so/libXray.so` 。
 
-### Windows
+#### Windows
 
 将 `OneXray/libXray.dll` 替换为 libXray 的编译产物 `windows_dll/libXray.dll` 。
 
@@ -65,3 +65,12 @@ sudo apt remove onexray
 
 当在 Mac App Store 之外分发软件包时，需要用到 **Developer ID Installer** 和 **Developer ID Application** 证书，很不幸，这两种
 证书不支持对 Network Extension 插件进行签名。
+
+## 贡献
+
+若本项目对您有所帮助，您可考虑通过以下方式对本项目进行贡献。
+
+1. 给本项目一个 star 。
+2. 翻译 App 的 UI 文本 [l10n](https://github.com/OneXray/l10n) 。
+3. 翻译 App 的文档 [onexray.com](https://github.com/OneXray/onexray.com) 。
+4. 分享您的路由设置 [Routing](https://github.com/OneXray/Routing) 。
