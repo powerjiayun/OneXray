@@ -36,6 +36,7 @@
 执行指令前请确认目录。
 
 ```shell
+sudo apt install -y procps libcap2-bin libayatana-appindicator3-1
 sudo setcap cap_net_admin+epi OneXray/bin/tun
 sudo setcap cap_net_admin+epi OneXray/bin/route
 ```

@@ -37,6 +37,7 @@ If you use the zip package, you need to make the following settings to use OneXr
 Please confirm the directory before executing the command.
 
 ```shell
+sudo apt install -y procps libcap2-bin libayatana-appindicator3-1
 sudo setcap cap_net_admin+epi OneXray/bin/tun
 sudo setcap cap_net_admin+epi OneXray/bin/route
 ```
