@@ -10,19 +10,19 @@ Follow us on Telegram: [OneXray](https://t.me/OneXrayApp)
 
 ## Download
 
-| Operating System | Version                                                    | CPU Architecture     | Installation Package Format | Download Link                                                                                                              |
-| ---------------- | ---------------------------------------------------------- | -------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Windows          | Windows 10, Windows 11                                     | x86_64               | exe                         | [OneXray-windows-amd64.exe](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.exe)         |
-| Windows          | Windows 10, Windows 11                                     | x86_64               | zip                         | [OneXray-windows-amd64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.zip)         |
-| Android          | Android 8.0 and above                                      | arm32, arm64, x86_64 | aab                         | [Google Play Store](https://play.google.com/store/apps/details?id=net.yuandev.onexray)                                     |
-| Android          | Android 8.0 and above                                      | arm32, arm64, x86_64 | apk                         | [OneXray-android-universal.apk](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-android-universal.apk) |
-| iOS              | iOS 15.0 and above                                         | arm64                | ipa                         | [App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                            |
-| iOS              | iOS 15.0 and above                                         | arm64                | ipa                         | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
-| macOS            | macOS 12.0 and above                                       | Apple silicon, Intel | pkg                         | [Mac App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                        |
-| Linux            | Ubuntu 24.04 and above, Debian 12 and above, GLIBC >= 2.36 | x86_64               | deb                         | [OneXray-linux-x86_64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.deb)           |
-| Linux            | Ubuntu 24.04 and above, Debian 12 and above, GLIBC >= 2.36 | x86_64               | zip                         | [OneXray-linux-x86_64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.zip)           |
-| Linux            | Ubuntu 24.04 and above, Debian 12 and above, GLIBC >= 2.36 | arm64                | deb                         | [OneXray-linux-aarch64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-aarch64.deb)         |
-| Linux            | Ubuntu 24.04 and above, Debian 12 and above, GLIBC >= 2.36 | arm64                | zip                         | [OneXray-linux-aarch64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-aarch64.zip)         |
+| Operating System | Version                | CPU Architecture     | Installation Package Format | Download Link                                                                                                              |
+| ---------------- | ---------------------- | -------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Windows          | Windows 10, Windows 11 | x86_64               | exe                         | [OneXray-windows-amd64.exe](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.exe)         |
+| Windows          | Windows 10, Windows 11 | x86_64               | zip                         | [OneXray-windows-amd64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-windows-amd64.zip)         |
+| Android          | Android 8.0 and above  | arm32, arm64, x86_64 | aab                         | [Google Play Store](https://play.google.com/store/apps/details?id=net.yuandev.onexray)                                     |
+| Android          | Android 8.0 and above  | arm32, arm64, x86_64 | apk                         | [OneXray-android-universal.apk](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-android-universal.apk) |
+| iOS              | iOS 15.0 and above     | arm64                | ipa                         | [App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                            |
+| iOS              | iOS 15.0 and above     | arm64                | ipa                         | [OneXray-ios.ipa](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-ios.ipa)                             |
+| macOS            | macOS 12.0 and above   | Apple silicon, Intel | pkg                         | [Mac App Store](https://apps.apple.com/us/app/onexray/id6745748773)                                                        |
+| Linux            | GLIBC >= 2.36          | x86_64               | deb                         | [OneXray-linux-x86_64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.deb)           |
+| Linux            | GLIBC >= 2.36          | x86_64               | zip                         | [OneXray-linux-x86_64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-x86_64.zip)           |
+| Linux            | GLIBC >= 2.36          | arm64                | deb                         | [OneXray-linux-aarch64.deb](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-aarch64.deb)         |
+| Linux            | GLIBC >= 2.36          | arm64                | zip                         | [OneXray-linux-aarch64.zip](https://github.com/OneXray/OneXray/releases/latest/download/OneXray-linux-aarch64.zip)         |
 
 ## Notes
 
